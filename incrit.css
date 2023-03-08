@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+fieldset{
+    background-image: url("téléchargement\ \(1\).jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+legend{
+    font-size: 30px;
+    text-transform:uppercase;
+    text-align: center;
+    color: black;
+}
+
+.div-grand{
+    text-align: center;
+    background:white;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+input{
+
+}
+
+input{
+    width: 320px;
+    height: 30px;
+    margin: 1rem;
+}
+
+label{
+    display: inline-block;
+    width: 200px;
+    height: 10px;
+    font-size: 25px;
+    color: black;
+}
+p{
+    font-size: 25px;
+    color: black;
+}
+
+.div-sex{
+    margin-bottom: 3%;
+}
+
+.div-sex p{
+    margin-left: -27%;
+    margin-top: 3%;
+}
+
+.div-sex label{
+    margin-left: 20%;
+}
+
+.div-option p{
+    margin-left: -20%;
+}
+
+#peys{
+    width: 10%;
+    margin-left: 3%;
+}
+
+.div-lang p{
+    margin-top: 3%;
+    margin-left: -15%;
+}
+
+.submit{
+    
+    width: 12%;
+    font-size: 17px;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 5px;
+}
+.div-lien{
+    margin-top: 3%;
+}
+
+.div-lien a{
+    text-decoration: none;
+    border: 1px solid black;
+    background-color: blue;
+    color: white;
+    border-radius:5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}

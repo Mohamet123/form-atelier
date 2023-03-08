@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formilaire</title>
+    <link rel="stylesheet" href="incrit.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+
+<body>
+
+    <fieldset>
+        <legend>Inscrivez vous</legend>
+        <form method="post" action="">
+            <div class="div-grand">
+            <label for="prenom">Prenom</label> 
+            <input type="text" id="prenom" name="prenom" placeholder="sesire votre prenom"><i class="fa-solid fa-user"></i><br>
+
+            <label for="prenom">Nom</label>
+            <input type="text" id="nom" name="nom" placeholder="sesire votre nom"> <i class="fa-solid fa-user"></i><br>
+            <label for="mail">Mail</label>
+            <input type="email" id="mail" name="mail" placeholder="sesire votre email"><i   class="fa-solid fa-envelope"></i><br>
+
+            <label for="passe">Mot de passe</label>
+            <input type="password" id="passe" name="passe" placeholder="sesire votre mot de passe"><i id="hide1" class="fa-solid fa-eye"></i><br>
+
+            <label for="age">Age</label>
+            <input type="date" id="age" name="age"><br>
+            <div class="div-sex">
+                <p>Sex</p>
+                <label for="masculin">Masculin</label>
+                <input type="radio" id="masculin" name="masculin"><br>
+
+                <label for="feminin">Féminin</label>
+                <input type="radio" id="feminin" name="feminin"><br><br>
+            </div>
+            <div class="div-option">
+                <p>vous habités a quelle peys</p>
+                <select name="peys" id="peys">
+
+                    <optgroup label="Affrique">
+                        <option value="senegal">Sénégal</option>
+                        <option value="gambi">Gambi</option>
+                        <option value="mali">Mali</option>
+                    </optgroup>
+
+                    <optgroup label="Europ">
+                        <option value="france">France</option>
+                        <option value="belgique">Belgique</option>
+                        <option value="itali">Itali</option>
+                    </optgroup>
+                </select>
+            </div>
+          <div class="div-lien"> 
+       <p><a href="connexion.html">Se connecte</a></p>
+    </div> 
+    </div>
+    </form>
+</fieldset>
+</body>
+
+</html>
